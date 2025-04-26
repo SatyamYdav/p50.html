@@ -1,0 +1,53 @@
+.navbar{
+    background-color: aqua;
+    display :flex ;
+    justify-content: space-evenly;
+
+  
+    
+
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.parent ul{
+    display: flex;
+    list-style: none;
+    
+  
+    gap: 40px;
+}
+.navbar label{
+    display: none;
+}
+#click
+{
+    display: none;
+}
+
+
+#click:checked~.navbar ul{
+    display: block;
+}
+@media screen and (max-width: 650px) {
+    .navbar label{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    
+    
+}
+.navbar ul{
+    display: none;
+    position: absolute;
+    top: 100px;
+    background-color: red;
+    width: 100%;
+}
+.navbar li{
+    padding: 10px;
+}

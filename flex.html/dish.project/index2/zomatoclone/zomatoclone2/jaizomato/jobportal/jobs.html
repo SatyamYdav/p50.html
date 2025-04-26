@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jobs | JobHunt</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">JobHunt</div>
+    <div class="nav-toggle">&#9776;</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="job-listings">
+    <h2>Latest Jobs</h2>
+
+    <div class="job-card">
+      <h3>Frontend Developer</h3>
+      <p>Work remotely with a passionate team. React/Vue experience preferred.</p>
+      <a href="#">Apply Now</a>
+    </div>
+
+    <div class="job-card">
+      <h3>Graphic Designer</h3>
+      <p>Creative design role in a growing marketing agency.</p>
+      <a href="#">Apply Now</a>
+    </div>
+  </section>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelector(".nav-toggle").addEventListener("click", function () {
+        document.querySelector("nav ul").classList.toggle("show");
+      });
+    });
+  </script>
+</body>
+</html>

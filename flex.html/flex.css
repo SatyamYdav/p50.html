@@ -1,0 +1,21 @@
+.wrapper{
+    background-color: bisque;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+    margin: 20px;
+    display flex-direction: height: 20px;
+
+
+}
+
+    .order-btn{
+        background-color: palevioletred;
+        padding: 20px;
+        border: none;
+        border-radius: 5px;
+
+    }
+    .text-container{
+        margin-right: 20px;
+    }

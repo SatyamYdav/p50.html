@@ -1,0 +1,10 @@
+.parent{
+    display: flex;
+    margin: 20px;
+    left: 40;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: red;
+    width: 200px;
+
+}

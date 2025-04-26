@@ -1,0 +1,31 @@
+.container{
+background-color: blue;
+height: 300px;
+width: 300px;
+margin-top: 200px;
+}
+.cl{
+    height: 200px;
+    width: 200px;
+background-position-x: red;
+position: absolute;
+top: 40px;
+
+
+
+}
+.c1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.c2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.c5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}.c6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

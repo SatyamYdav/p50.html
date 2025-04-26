@@ -1,0 +1,27 @@
+.parent{
+    background-color:aquamarine ;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+    
+
+
+}
+.child1,.child2,.child3,.child4,.child5,.child6{
+    background-color:white;
+    border:2px solid black;
+
+}
+/* .child1{
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:3;
+}
+ */
+.child1{
+    grid-column-start: 1 ;
+    grid-column-end: 4;
+
+}
